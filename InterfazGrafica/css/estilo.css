@@ -1,0 +1,21 @@
+BODY{
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#foto{
+  max-width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+display: inline-block;
+margin: auto;
+}
+#foto2{
+  max-width: 40%;
+height: auto;
+margin: 0px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+}
