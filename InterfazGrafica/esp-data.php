@@ -7,9 +7,9 @@ $servername = "localhost";
 // REPLACE with your Database name
 $dbname = "SensorData";
 // REPLACE with Database user
-$username = "root";
+$username = ""; //Indicar nombre de la base de datos
 // REPLACE with Database user password
-$password = "";
+$password = ""; //Indicar contrasenia de la base de datos
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
