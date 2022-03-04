@@ -52,9 +52,9 @@ if ($_POST) {
                 // REPLACE with your Database name
                 $dbname = "sensordata";
                 // REPLACE with Database user
-                $username = "root";
+                $username = ""; //Indicar nombre de la base de datos
                 // REPLACE with Database user password
-                $password = "";
+                $password = ""; //Indicar contraseña de la base de datos
 
                 // Create connection
                 $conn = new mysqli($servername, $username, $password, $dbname);
