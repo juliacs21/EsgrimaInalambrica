@@ -5,11 +5,11 @@ $servername = "localhost";
 // REPLACE with your Database name
 $dbname = "SensorData";
 // REPLACE with Database user
-$username = "root";
+$username = ""; //Indicar nobmre de la base de datos
 // REPLACE with Database user password
-$password = "";
+$password = ""; //Indicar contrasenia de la base de datos
 
-$api_key_value = "tPmAT5Ab3j7F9";
+$api_key_value = ""; //Indicar el valor de la api definida en el arduino
 
 $api_key = $value1 = $value2 = "";
 
